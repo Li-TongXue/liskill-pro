@@ -65,14 +65,6 @@
       "completion_upgrade_status": "已满足：内置随包结构库的信息点模板、素材对照与占位规则、全稿写作流程、拍摄提示和自检。"
     },
     {
-      "name": "li-city-impressions",
-      "display_name": "城市印象文案生成",
-      "kind": "business",
-      "description": "从用户对城市的真实观察中，组织误解与事实反转的短视频口播脚本。用户希望讲述城市印象或本地生活体验时使用；缺少真实反转经历时先补素材，不虚构故事。",
-      "completion_level": "1",
-      "completion_reason": "城市数据仅有未核验示例；需要与用户补齐并确认真实经历和城市细节。"
-    },
-    {
       "name": "li-conflict-topics",
       "display_name": "冲突性选题",
       "kind": "business",
@@ -125,15 +117,6 @@
       "completion_level": "2",
       "completion_reason": "内置需求三档、进来的人四类、信任证据三项、风险门、按本条目的出结论的判定表与改判条件模板。",
       "completion_upgrade_status": "已满足：内置需求三档、进来的人四类、信任证据三项、风险门、按本条目的出结论的判定表与改判条件模板。"
-    },
-    {
-      "name": "li-social-currency",
-      "display_name": "社交货币选题判断",
-      "kind": "business",
-      "description": "从观众愿意转给谁、转发如何影响自身形象出发，判断和改造选题的分享性。用户明确关心转发、分享或社交货币时使用；不将转发性等同于整体拍摄价值、获客价值或播放量预测。",
-      "completion_level": "2",
-      "completion_reason": "内置分享性判断、三个改造机制和不同输入的输出模板。",
-      "completion_upgrade_status": "已满足：内置分享性判断、三个改造机制和不同输入的输出模板。"
     },
     {
       "name": "li-stasis-topoi",

@@ -42,31 +42,30 @@ metadata:
 | A | 第 2 步 素材 `li-material-mining` |
 | B | 第 3 步 选题角度（按下方「第 3 步怎么选」挑一个技能） |
 | C | 第 4 步 值不值得拍 `li-worth-shooting` |
-| D | 第 9 步 八步审核 `li-eight-audits` |
+| D | 第 8 步 八步审核 `li-eight-audits` |
 | 刚开号或发得很少，想先定账号方向 | 第 1 步 账号定位 `li-account-positioning` |
 | 已经发了一批内容，想检查账号给人的印象 | 第 1 步 `li-agenda-setting` |
-| 稿子审过了，要发布 | 第 12 步 `li-publish-pack` |
+| 稿子审过了，要发布 | 第 11 步 `li-publish-pack` |
 
 用户第一句话已经说清需求、明确对应某一步时，不再问 A/B/C/D，直接复述一句理解后进入。用户说「从第一步做」而没提已经发过一批内容时，第 1 步默认用 `li-account-positioning`（它会在账号已经发过一批内容时转到 `li-agenda-setting`）。
 
 ---
 
-## 12 步总表
+## 11 步总表
 
 | 步 | 步骤 | 当前技能 | 状态 | 写入内容卡 |
 |---|---|---|---|---|
 | 1 | 账号定位 | `li-account-positioning` 账号定位（从零定位）；已有一批内容时用 `li-agenda-setting` 议程设置内容定位检查印象 | 可用 | 卡头「账号定位」 |
 | 2 | 素材 | `li-material-mining` 素材挖掘 | 可用 | 素材（选定选题后也写 选题与角度） |
 | 3 | 选题角度 | 发散：`li-angle-team`；收敛：`li-conflict-topics` / `li-stasis-topoi` / `li-public-issues` / `li-topic-ladder` | 可用 | 选题与角度（多视角、扩圈另写 受众） |
-| 4 | 值不值得拍 | `li-worth-shooting` 值不值得拍 | 可用：结合账号定位判断拍、换个角度拍还是不拍；只想知道能覆盖多少人时回第 3 步用 `li-topic-ladder`；不把转发性当成拍摄价值 | 值不值得拍 |
-| 5 | 转发 | `li-social-currency` 社交货币选题判断 | 可用 | 转发判断 |
-| 6 | 脚本形式 | `li-script-form` 脚本形式 | 可用：判断内容类型，从 25 个结构里推荐 2–3 个，列出素材缺口；城市印象题转 `li-city-impressions`，故事/关系 Vlog 转 `li-story-vlog`（这两个自带第 6–8 步） | 形式 |
-| 7 | 开头 | `li-script-opening` 开头 | 可用：按选定结构的开头规则写 3 个不同勾法的开头，用户选一个 | 开头 |
-| 8 | 完整脚本 | `li-script-writing` 完整脚本 | 可用：按结构逐段写全稿，缺素材处写【待补】，不代编用户经历 | 脚本 |
-| 9 | 八步审核 | `li-eight-audits` 八大审核法 | 可用 | 审核记录 |
-| 10 | 修改 | `li-eight-audits` 的重点改造 + 用户确认；Vlog 文风改稿用 `li-story-vlog` 改稿模式 | 可用 | 脚本、审核记录 |
-| 11 | 再审 | `li-eight-audits` | 可用 | 审核记录 |
-| 12 | 标题封面拍摄剪辑 | `li-publish-pack` 发布文案标题封面 | 标题、发布文案、封面文案可用；**拍摄剪辑建设中** | 发布 |
+| 4 | 值不值得拍 | `li-worth-shooting` 值不值得拍 | 可用：结合账号定位判断拍、换个角度拍还是不拍；只想知道能覆盖多少人时回第 3 步用 `li-topic-ladder` | 值不值得拍 |
+| 5 | 脚本形式 | `li-script-form` 脚本形式 | 可用：判断内容类型，从 25 个结构里推荐 2–3 个，列出素材缺口；故事/关系 Vlog 转 `li-story-vlog`（它自带第 5–7 步） | 形式 |
+| 6 | 开头 | `li-script-opening` 开头 | 可用：按选定结构的开头规则写 3 个不同勾法的开头，用户选一个 | 开头 |
+| 7 | 完整脚本 | `li-script-writing` 完整脚本 | 可用：按结构逐段写全稿，缺素材处写【待补】，不代编用户经历 | 脚本 |
+| 8 | 八步审核 | `li-eight-audits` 八大审核法 | 可用 | 审核记录 |
+| 9 | 修改 | `li-eight-audits` 的重点改造 + 用户确认；Vlog 文风改稿用 `li-story-vlog` 改稿模式 | 可用 | 脚本、审核记录 |
+| 10 | 再审 | `li-eight-audits` | 可用 | 审核记录 |
+| 11 | 标题封面拍摄剪辑 | `li-publish-pack` 发布文案标题封面 | 标题、发布文案、封面文案可用；**拍摄剪辑建设中** | 发布 |
 
 遇到「建设中」的步骤：明确告诉用户这一步还没有专门技能，给出表里的替代做法，由用户决定跳过还是用替代；不按名字猜写一个不存在的方法。
 

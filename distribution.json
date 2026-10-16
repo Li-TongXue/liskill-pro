@@ -3,7 +3,7 @@
   "collection": "liskill-members",
   "skills": {
     "li": {
-      "SKILL.md": "791d33700fa13b1168725784bf43eb56bad03f9b950f8028b0bd5688653224ca",
+      "SKILL.md": "29d2584f532e90556a67605272edb7a39fc06c79bb4df7f05256dae58cd1f536",
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
     },
     "li-angle-team": {
@@ -113,12 +113,6 @@
       "references/structures/餐饮型-差评回复巡店.md": "c18428837263497daeed5520b2dc151c8d08b61ee4addbf5ba58bdbb6c321bd0",
       "references/structures/高敏野心家-标准失准破局.md": "bd8f35ec32b0a2fec477f5cfa1f5ca28261a078deb74414c371093b3688357fa"
     },
-    "li-city-impressions": {
-      "SKILL.md": "01ec3345e6f22ab3512db77d5d33d6d4513ba614e8dae938d25b6ce6f5722186",
-      "agents/openai.yaml": "c822c62c17da0702f663575a9d57cf432ee7f3d729ddd6a866b8cfec3674669e",
-      "references/case-study.md": "6f633a27b10904a22aa804d24798c596569995a146378afb67901e77608c9097",
-      "references/city-data.csv": "bed204efd942cd838899d3fb4d4a604e9ce7dfa54fae85419c1d4f0cd0cd32bb"
-    },
     "li-conflict-topics": {
       "SKILL.md": "54d1a2761d778bb3f988b6b1c29fd76f62cfdcbc63d1cd9fdb9210f61b45593b",
       "agents/openai.yaml": "ea88db91722a4d1fda2e1a69dc50b19820297a37cf1b8cb9351a62d4bf82be77"
@@ -154,10 +148,6 @@
       "SKILL.md": "9d61a6c99d3ed53cf23f78a535dee90fa4c4adab6e230dea0f85cdea1b19686e",
       "agents/openai.yaml": "43decb9180b7641ff2e06bb23f39ddf1c62ae0cf2d3f5763d9f6555def324808",
       "references/criteria-sources.md": "bf730665cbec7eb223dc75b0cee543ee1216397b77883cd5515337922b36d7e3"
-    },
-    "li-social-currency": {
-      "SKILL.md": "da74540a0e512202b1eea6f22bbc8ec3755258276d9e989a774b207a9d6ede2b",
-      "agents/openai.yaml": "41588b7befbd0821245984e0a60caa3c3ed8eb361ed559ea31bec39307f8a377"
     },
     "li-stasis-topoi": {
       "SKILL.md": "04cdb9a8a2bb1cfd5ebc360033c4cb733e51572851fc67b38665bb26cf70aee1",
