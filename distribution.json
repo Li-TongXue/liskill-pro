@@ -3,7 +3,7 @@
   "collection": "liskill-members",
   "skills": {
     "li": {
-      "SKILL.md": "f695a230c77bbaa7592d93023ab5c8203664da404a218fb0379ad9f557fe6519",
+      "SKILL.md": "f85fcffcad2e569fb8c0dd16d92f981a2680ddadcfe75eb46f0fe6593572e05d",
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
     },
     "li-account-positioning": {
@@ -16,7 +16,7 @@
       "agents/openai.yaml": "d9700f1dfdc44ddc4500bb4a5300714d2c53c5413b207de13479b826a2f5230f"
     },
     "li-angle-team": {
-      "SKILL.md": "24afdb691e288b59eb9050e0a620de85e0553209c889a1744f3ebbfc194dd6b0",
+      "SKILL.md": "a9af9b96723856d652e9c851fa2d5edf90064af7e9fc48107020baac6f85064f",
       "agents/openai.yaml": "1f42b593124ee1dcc58bb8338f9acd73ab89124fe7c04be89c2b71db9f772a6d",
       "references/connection-standard.md": "91f2fb08492c1c9b9330b5c113684daf0fdace89b761af83307f63298583d3f9",
       "references/lenses.md": "b63f1baacf1f0c4122411b859150a6016e3fe8a49b4768de1575ab3639401e4e",
@@ -32,17 +32,17 @@
       "agents/openai.yaml": "8476b70fcfe5a0a9f30f03288ea02afce54e65618083d0bc7d184ecc30b14bf4"
     },
     "li-material-mining": {
-      "SKILL.md": "9fed3b70a30c881313674a41807e5d5705f74c0d59c7fcfc51de5e509ed161b4",
+      "SKILL.md": "42ccfe0b764498b1480b411e20962599e79daa971d45cefeeefe20ec295fe4c0",
       "agents/openai.yaml": "bbf82763d0e3bd486e788292d7723b32fc88ae8ee80935793a8b478af26aa27a",
       "references/conflict.md": "886b6ac0ed25609110a0cec4718fcab4b57de37d814a74398babc0e6c25c98ae",
       "references/external-method-sources.json": "9e19908298f3bd3aa4107bd07da0b7b04ac4c66ccba7dd10122bddc7482e0689",
-      "references/li-method-sources.json": "67aeec2e349267f661d726a4649e6408aeab2354135a80b972a65f6b59afb4c9",
+      "references/li-method-sources.json": "409ec3ee7c57541459fb5273476cd9d6d7a3973a418f43c8a4fb375c99ea6d33",
       "references/public-issues.md": "c7552d750104c5cb79a10f353faea24cdd834c4953e937b60b7abeb628b28237",
       "references/social-currency.md": "f18528c1be4c6837963fb08e55be80584708742395c78f35c4235cfa56cac2f0",
-      "references/sources.md": "5a9f2ef125d28cb55317377192b4e7900b49e4af4080e6df296e4bbe1bec052c",
+      "references/sources.md": "cad8ff5ebbaa289902778dee4ba0df6283587b3c3a25f257b3740ee405ab1155",
       "references/stasis-angle.md": "78411d9fcbbfd799df6d1f6191b1a8922577f296d892edb5fc9b9232215919ba",
       "references/stasis-theory.md": "d0de25615588326a545e9ca04b0d165266e379da769f54aea5aae3fa173c5dc9",
-      "references/stasis-topoi.md": "ff0254b3e4a7e8e65ffb8503d5af53b68303c20c7763d9ddbe36cda8caad2c3e"
+      "references/stasis-topoi.md": "607092566419a2b39e91a8b58df1c96511cf2a9174adbe3ac26ce4ba580aac71"
     },
     "li-public-issues": {
       "SKILL.md": "05b1d68adda015f356ddbc1699309eb7ab571996c2445aedff0b68bcb8e2e952",
@@ -142,8 +142,8 @@
       "references/structures/餐饮型-差评回复巡店.md": "c18428837263497daeed5520b2dc151c8d08b61ee4addbf5ba58bdbb6c321bd0",
       "references/structures/高敏野心家-标准失准破局.md": "bd8f35ec32b0a2fec477f5cfa1f5ca28261a078deb74414c371093b3688357fa"
     },
-    "li-stasis-topoi": {
-      "SKILL.md": "8407da6cc8cdb64498b365f83daefc24679959528f57f0f60a882ceb19bbc050",
+    "li-stasis-topos": {
+      "SKILL.md": "e68ffc0802f3904b132b081b3b75c0370840360f1be471ec9f5c9facf1c12c95",
       "agents/openai.yaml": "5c95237bc3a206162b2d466a5d8c96b3246e0bb3c1adceae654a995876596a5e",
       "references/method.md": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f"
     },
@@ -153,14 +153,14 @@
       "references/完整文风规范.md": "8eb98af519d7087c2348f43852cb58ea5a23e36beabe3b55548a6daeaceee5e0"
     },
     "li-topic-ladder": {
-      "SKILL.md": "757e00331557127a1b9e8c0fd8b67aadbf0aa0e5ba3dd2d6a49422eb6f70c704",
+      "SKILL.md": "62e872a1a9c99c632945691528c02e48ff08d3797ae710f9e1be42e4a905cde5",
       "agents/openai.yaml": "ce5ffa5cd693cf34e2ec7b357fc476ff8742ef83f6e81b8010fec7ea40ac96fb",
       "references/theory-sources.md": "dec8228255a439474696a9078de641ecd8fc4738ed20b67947bde849da1f7895"
     },
     "li-update": {
       "SKILL.md": "0f855b98fe8d9f656d2ed8189ccc2c1879797ce4b0889ca3a96e25a171c5a1f9",
       "agents/openai.yaml": "bf10f4f62a687b7ac7bf0ccaa551fe4eeca9431c917bb6e6499c66408ecbcf92",
-      "references/legacy-installations.json": "419cf59904cf0da23fb7253b8b46d804fee02e626ede4f5c3e48e4d59d421bbc",
+      "references/legacy-installations.json": "aef899fbcee789aa0c847e799c2a89fb6102b6a57905235298d950a97e82e509",
       "references/migration.md": "4bdcf6bdb5da2e355b0b78770c5f46775e88121b0a00858c6737caa8ae620b67",
       "scripts/update.py": "38a70d6df0f98001075cd1d7c0118fa8658b6f45907d3b039448d7eab6ebc76c"
     },

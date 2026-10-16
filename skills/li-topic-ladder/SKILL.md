@@ -161,7 +161,7 @@ L0 → L1 → L2 → L3，每层一句话，写明新多了谁、共享什么后
 ## 交给其他 Li 技能
 
 - 选中的方向讲着平、需要张力 → `li-conflict-topics`
-- 选中的方向里有真实分歧，想知道在争什么 → `li-stasis-topoi`
+- 选中的方向里有真实分歧，想知道在争什么 → `li-stasis-topos`
 - 推到 L3 后想检验公共性、讲清背后机制 → `li-public-issues`
 - 想判断推高之后会不会有人转发 → `li-social-currency`
 - 写好之后要发布 → `li-publish-pack`

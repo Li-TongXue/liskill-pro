@@ -90,7 +90,7 @@ Windows 安装 Python 后可将 `python3` 换成 `py -3`。更新器只维护官
 |---|---|---|
 | 1 | 账号定位 | `li-account-positioning`（从零定位）；已经发了一批内容时用 `li-agenda-setting` 检查印象 |
 | 2 | 素材 | `li-material-mining` |
-| 3 | 选题角度 | 发散：`li-angle-team`；收敛：`li-conflict-topics` / `li-stasis-topoi` / `li-public-issues` / `li-topic-ladder` |
+| 3 | 选题角度 | 发散：`li-angle-team`；收敛：`li-conflict-topics` / `li-stasis-topos` / `li-public-issues` / `li-topic-ladder` |
 | 4 | 值不值得拍 | `li-worth-shooting` |
 | 5 | 脚本形式 | `li-script-form`（故事 Vlog 转 `li-story-vlog`） |
 | 6 | 开头 | `li-script-opening` |
@@ -133,7 +133,7 @@ Windows 安装 Python 后可将 `python3` 换成 `py -3`。更新器只维护官
 | 3 | 素材 | `li-material-mining` | 素材挖掘 | 通过逐轮追问，从用户的工作和日常经历中挖掘真实的短视频素材，并形成可拍的选题。用户不知道拍什么、觉得日常没有内容，或希望通过聊天寻找素材时使用；已有明确素材、只需要改稿时不使用。 |
 | 4 | 选题 | `li-angle-team` | 多视角找角度 | 用 12 个理论视角分别发现一份素材或已有角度还能和哪些不同的人、在什么处境下发生真实关系，分批展示完整的连接地图，由用户自己挑方向。用户有素材但不知道往哪个方向讲、想一次看到多种角度、或想知道「这件事还和谁有关」时使用；不排序、不替用户选主角度，也不写标题和全稿。 |
 | 5 | 选题 | `li-conflict-topics` | 冲突性选题 | 判断普通话题是否适合以冲突展开，找出主冲突并形成不同力度的选题。用户觉得话题太平、想找张力或把话题推进成题时使用；不强推没有真实分歧的教程和通知。 |
-| 6 | 选题 | `li-stasis-topoi` | 修辞学选题法 | 从已有事实和不同解释中识别核心争点，再选择因果、定义、对比等切口形成选题。用户想弄清在争什么或选择争议内容角度时使用；事实尚不清楚时先补材料。 |
+| 6 | 选题 | `li-stasis-topos` | 修辞学选题法 | 从已有事实和不同解释中识别核心争点，再选择因果、定义、对比等切口形成选题。用户想弄清在争什么或选择争议内容角度时使用；事实尚不清楚时先补材料。 |
 | 7 | 选题 | `li-public-issues` | 公共问题升维 | 检验具体事件或个人观察是否具有公共性，用事实和机制假设形成值得讨论的公共问题。用户觉得现象不对劲、想讲清背后机制或让更多人理解其影响时使用；证据不足时不强行扩大结论。 |
 | 8 | 选题 | `li-topic-ladder` | 话题扩圈阶梯 | 用抽象阶梯和框架理论，把一个具体素材、经历、产品或观点逐层推到更大的话题和更宽的受众层级，同时保留让人先注意的具体细节。用户觉得题目太小众、只有同行会看、想让圈外人也关心或想把内容推到更高流量层级时使用；不承诺播放量，证据撑不住的层级不硬推。 |
 | 9 | 选题判断 | `li-worth-shooting` | 值不值得拍 | 按李同学「需求决定一切」的判断，结合账号定位，给一个已经选好的选题和角度下结论——拍、换个角度拍、还是不拍，并说清理由和改判条件。先看需求是大、小而精准还是没有，再看进来的人是不是老板要的客户，最后看能不能回到生意和信任。用户有了选题、想知道值不值得花时间拍，或担心拍了只有播放没有客户时使用；不预测播放量，不判断转发性，不负责把题推大。 |
@@ -161,7 +161,7 @@ Windows 安装 Python 后可将 `python3` 换成 `py -3`。更新器只维护官
 把下面这段话发给 Agent，让它帮你排查修复：
 
 > 我电脑上安装的 liskill 技能（来源 https://gitee.com/LTX12/liskill-members.git ）在 Agent 里能识别，但可视化技能列表里看不到。请帮我排查并修复：
-> 1. 先查看技能安装目录里有没有这些技能：`~/.claude/skills` 和 `~/.agents/skills` 两个目录下，检查 li、li-account-positioning、li-material-mining、li-angle-team、li-conflict-topics、li-stasis-topoi、li-public-issues、li-topic-ladder、li-worth-shooting、li-agenda-setting、li-script-form、li-script-opening、li-script-writing、li-story-vlog、li-eight-audits、li-publish-pack、li-update 这 17 个小写目录是否存在
+> 1. 先查看技能安装目录里有没有这些技能：`~/.claude/skills` 和 `~/.agents/skills` 两个目录下，检查 li、li-account-positioning、li-material-mining、li-angle-team、li-conflict-topics、li-stasis-topos、li-public-issues、li-topic-ladder、li-worth-shooting、li-agenda-setting、li-script-form、li-script-opening、li-script-writing、li-story-vlog、li-eight-audits、li-publish-pack、li-update 这 17 个小写目录是否存在
 > 2. 逐个检查这些目录是不是符号链接：如果是，用 `readlink` 看链接指向的目标路径是否存在；如果目标不存在（悬空链接）或者目录缺失，重新执行安装命令修复：`npx -y skills add https://gitee.com/LTX12/liskill-members.git -g --all`
 > 3. 重装后再次确认 19 个小写目录都在，且每个目录里有完整的 SKILL.md（文件非空、能读取，文件头有 name 字段）
 > 4. 如果重装后可视化列表还是看不到，检查有没有旧的大写残留目录（Li、Li-Eight-Audits 等），有就删掉

@@ -32,7 +32,7 @@ metadata:
 
 - 已经有方向、只想把它推到更大的受众 → `li-topic-ladder`；
 - 话题太平、想找张力 → `li-conflict-topics`；
-- 已经知道有分歧、想弄清在争什么 → `li-stasis-topoi`；
+- 已经知道有分歧、想弄清在争什么 → `li-stasis-topos`；
 - 现象「不对劲」、想讲清机制和公共性 → `li-public-issues`。
 
 本技能不找争点、不评价账号适配、不预测播放量，也不替用户选角度。用户只要标题、全稿或发布判断时，转到对应步骤。
@@ -116,6 +116,6 @@ metadata:
 ```
 ✅ 第 3 步完成：选中连接 <编号>「<一句话方向>」（<人群>）
 👉 下一步是第 4 步：值不值得拍（li-worth-shooting 值不值得拍），回复「继续」开始
-也可以：把这个方向推给更多人（li-topic-ladder）／ 找张力（li-conflict-topics）／ 拆争点（li-stasis-topoi）
+也可以：把这个方向推给更多人（li-topic-ladder）／ 找张力（li-conflict-topics）／ 拆争点（li-stasis-topos）
 ```
 <!-- pipeline:end -->
