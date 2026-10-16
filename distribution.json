@@ -3,8 +3,17 @@
   "collection": "liskill-members",
   "skills": {
     "li": {
-      "SKILL.md": "29d2584f532e90556a67605272edb7a39fc06c79bb4df7f05256dae58cd1f536",
+      "SKILL.md": "f695a230c77bbaa7592d93023ab5c8203664da404a218fb0379ad9f557fe6519",
       "agents/openai.yaml": "4eff738fe8d6ccc42cca37e3dd1787eb964cd0027e2f36c89916bed1a2d9ad6a"
+    },
+    "li-account-positioning": {
+      "SKILL.md": "8827874db5f3fa8af8db97a356172dbfff9d22e28bf270c63473ff492f1110fa",
+      "agents/openai.yaml": "1f8ecabd26a53fade8e256089bcc5e4078a0730716a88dffa90b00fc60e8bf8d",
+      "references/positioning-method.md": "e83f3796e570a61d599211e5b38309b3204a46f93af0005c506ac74354e94c5e"
+    },
+    "li-agenda-setting": {
+      "SKILL.md": "4fa562d01ab2736655df627cf18d704a6df783895746f0e7d603b0a359183719",
+      "agents/openai.yaml": "d9700f1dfdc44ddc4500bb4a5300714d2c53c5413b207de13479b826a2f5230f"
     },
     "li-angle-team": {
       "SKILL.md": "24afdb691e288b59eb9050e0a620de85e0553209c889a1744f3ebbfc194dd6b0",
@@ -14,14 +23,34 @@
       "references/team-protocol.md": "d3319b1480e902f9596e8c4e96f6cb143309cbea64fb201c08b3786d061b8d8a",
       "references/theory-sources.md": "2819b475cfab85292166ccc713e881de655cffc82d3717caea1f1fe32e275d3c"
     },
-    "li-account-positioning": {
-      "SKILL.md": "8827874db5f3fa8af8db97a356172dbfff9d22e28bf270c63473ff492f1110fa",
-      "agents/openai.yaml": "1f8ecabd26a53fade8e256089bcc5e4078a0730716a88dffa90b00fc60e8bf8d",
-      "references/positioning-method.md": "e83f3796e570a61d599211e5b38309b3204a46f93af0005c506ac74354e94c5e"
+    "li-conflict-topics": {
+      "SKILL.md": "dce21c8d4f64a66cbc6affffc568521ae78d7f696fd7efb13215298012fb60e1",
+      "agents/openai.yaml": "ea88db91722a4d1fda2e1a69dc50b19820297a37cf1b8cb9351a62d4bf82be77"
     },
-    "li-agenda-setting": {
-      "SKILL.md": "1fea474075c6be15c10d9324c081b0445c41fa677ac54d8ba076889320110b9c",
-      "agents/openai.yaml": "d9700f1dfdc44ddc4500bb4a5300714d2c53c5413b207de13479b826a2f5230f"
+    "li-eight-audits": {
+      "SKILL.md": "350306363d2057d1d1201b2c7ac2739223bfbddf5db4f6c3bbcfaed8913c21fc",
+      "agents/openai.yaml": "8476b70fcfe5a0a9f30f03288ea02afce54e65618083d0bc7d184ecc30b14bf4"
+    },
+    "li-material-mining": {
+      "SKILL.md": "9fed3b70a30c881313674a41807e5d5705f74c0d59c7fcfc51de5e509ed161b4",
+      "agents/openai.yaml": "bbf82763d0e3bd486e788292d7723b32fc88ae8ee80935793a8b478af26aa27a",
+      "references/conflict.md": "886b6ac0ed25609110a0cec4718fcab4b57de37d814a74398babc0e6c25c98ae",
+      "references/external-method-sources.json": "9e19908298f3bd3aa4107bd07da0b7b04ac4c66ccba7dd10122bddc7482e0689",
+      "references/li-method-sources.json": "67aeec2e349267f661d726a4649e6408aeab2354135a80b972a65f6b59afb4c9",
+      "references/public-issues.md": "c7552d750104c5cb79a10f353faea24cdd834c4953e937b60b7abeb628b28237",
+      "references/social-currency.md": "f18528c1be4c6837963fb08e55be80584708742395c78f35c4235cfa56cac2f0",
+      "references/sources.md": "5a9f2ef125d28cb55317377192b4e7900b49e4af4080e6df296e4bbe1bec052c",
+      "references/stasis-angle.md": "78411d9fcbbfd799df6d1f6191b1a8922577f296d892edb5fc9b9232215919ba",
+      "references/stasis-theory.md": "d0de25615588326a545e9ca04b0d165266e379da769f54aea5aae3fa173c5dc9",
+      "references/stasis-topoi.md": "ff0254b3e4a7e8e65ffb8503d5af53b68303c20c7763d9ddbe36cda8caad2c3e"
+    },
+    "li-public-issues": {
+      "SKILL.md": "05b1d68adda015f356ddbc1699309eb7ab571996c2445aedff0b68bcb8e2e952",
+      "agents/openai.yaml": "7b0f115d8587ad20b36e6a8bba9bb500d743e65afa0ea3dda4b9a201ed280077",
+      "references/case-study.md": "d0bc272aa6011b9ab2e993c0582567c5376f2dfe57d310dbb3dc626f82f9da4b"
+    },
+    "li-publish-pack": {
+      "SKILL.md": "2492b079cd2d3e87e83871ac4defbde28245752268320199e53aa758c1e01d38"
     },
     "li-script-form": {
       "SKILL.md": "ce53607ffbb826e50751e7f90a8d8ecc90ef37c5c1c5adc29949b866068383c3",
@@ -113,54 +142,20 @@
       "references/structures/餐饮型-差评回复巡店.md": "c18428837263497daeed5520b2dc151c8d08b61ee4addbf5ba58bdbb6c321bd0",
       "references/structures/高敏野心家-标准失准破局.md": "bd8f35ec32b0a2fec477f5cfa1f5ca28261a078deb74414c371093b3688357fa"
     },
-    "li-conflict-topics": {
-      "SKILL.md": "54d1a2761d778bb3f988b6b1c29fd76f62cfdcbc63d1cd9fdb9210f61b45593b",
-      "agents/openai.yaml": "ea88db91722a4d1fda2e1a69dc50b19820297a37cf1b8cb9351a62d4bf82be77"
+    "li-stasis-topoi": {
+      "SKILL.md": "d6eca505772ccaa42fe4419ad5c8b027c5f59331806a549617845de10555a1e1",
+      "agents/openai.yaml": "5c95237bc3a206162b2d466a5d8c96b3246e0bb3c1adceae654a995876596a5e",
+      "references/method.md": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f"
     },
-    "li-eight-audits": {
-      "SKILL.md": "f069bcf852b03bf45becde19b66cfa257192b0fa9d973f74757ec0fe2f088435",
-      "agents/openai.yaml": "8476b70fcfe5a0a9f30f03288ea02afce54e65618083d0bc7d184ecc30b14bf4"
-    },
-    "li-material-mining": {
-      "SKILL.md": "8f019eeebd86eb29b31a375f4296ea01129ed8122c0ab644958c67a666885703",
-      "agents/openai.yaml": "bbf82763d0e3bd486e788292d7723b32fc88ae8ee80935793a8b478af26aa27a",
-      "references/conflict.md": "886b6ac0ed25609110a0cec4718fcab4b57de37d814a74398babc0e6c25c98ae",
-      "references/external-method-sources.json": "9e19908298f3bd3aa4107bd07da0b7b04ac4c66ccba7dd10122bddc7482e0689",
-      "references/li-method-sources.json": "2d132154708182f0f647c5da4ff7d8fdba8fbc5065ea1854c8bdcf22b9785150",
-      "references/public-issues.md": "c7552d750104c5cb79a10f353faea24cdd834c4953e937b60b7abeb628b28237",
-      "references/social-currency.md": "f18528c1be4c6837963fb08e55be80584708742395c78f35c4235cfa56cac2f0",
-      "references/sources.md": "5a9f2ef125d28cb55317377192b4e7900b49e4af4080e6df296e4bbe1bec052c",
-      "references/stasis-angle.md": "78411d9fcbbfd799df6d1f6191b1a8922577f296d892edb5fc9b9232215919ba",
-      "references/stasis-theory.md": "d0de25615588326a545e9ca04b0d165266e379da769f54aea5aae3fa173c5dc9",
-      "references/stasis-topoi.md": "ff0254b3e4a7e8e65ffb8503d5af53b68303c20c7763d9ddbe36cda8caad2c3e"
-    },
-    "li-public-issues": {
-      "SKILL.md": "a15cebedcf5ec3edc39afed1a16644cfde607de76b24cc9c8b5439251ba14ace",
-      "agents/openai.yaml": "7b0f115d8587ad20b36e6a8bba9bb500d743e65afa0ea3dda4b9a201ed280077",
-      "references/case-study.md": "d0bc272aa6011b9ab2e993c0582567c5376f2dfe57d310dbb3dc626f82f9da4b"
+    "li-story-vlog": {
+      "SKILL.md": "7dc0d8ebd347f13b502a163ca35354dff9c003258e1f7a2290fe2336ad26e225",
+      "agents/openai.yaml": "3bde34ad16c077e6ba6652f34c1860f2934773d2a79cf122604e61e703ac5a57",
+      "references/完整文风规范.md": "8eb98af519d7087c2348f43852cb58ea5a23e36beabe3b55548a6daeaceee5e0"
     },
     "li-topic-ladder": {
       "SKILL.md": "757e00331557127a1b9e8c0fd8b67aadbf0aa0e5ba3dd2d6a49422eb6f70c704",
       "agents/openai.yaml": "ce5ffa5cd693cf34e2ec7b357fc476ff8742ef83f6e81b8010fec7ea40ac96fb",
       "references/theory-sources.md": "dec8228255a439474696a9078de641ecd8fc4738ed20b67947bde849da1f7895"
-    },
-    "li-worth-shooting": {
-      "SKILL.md": "9d61a6c99d3ed53cf23f78a535dee90fa4c4adab6e230dea0f85cdea1b19686e",
-      "agents/openai.yaml": "43decb9180b7641ff2e06bb23f39ddf1c62ae0cf2d3f5763d9f6555def324808",
-      "references/criteria-sources.md": "bf730665cbec7eb223dc75b0cee543ee1216397b77883cd5515337922b36d7e3"
-    },
-    "li-stasis-topoi": {
-      "SKILL.md": "04cdb9a8a2bb1cfd5ebc360033c4cb733e51572851fc67b38665bb26cf70aee1",
-      "agents/openai.yaml": "5c95237bc3a206162b2d466a5d8c96b3246e0bb3c1adceae654a995876596a5e",
-      "references/method.md": "46f6362b8f9c4a7254cd98384e9138dcbf97372097634d5b29e0b9344ca79b2f"
-    },
-    "li-story-vlog": {
-      "SKILL.md": "504695f1bc81db3a26e064d8092d5a8ea5b7446c6e8a3d0db53692d4b1e5938c",
-      "agents/openai.yaml": "3bde34ad16c077e6ba6652f34c1860f2934773d2a79cf122604e61e703ac5a57",
-      "references/完整文风规范.md": "8eb98af519d7087c2348f43852cb58ea5a23e36beabe3b55548a6daeaceee5e0"
-    },
-    "li-publish-pack": {
-      "SKILL.md": "8b12aff49a00e4b40dc795f6112c2d0e6c6b7aa9c9207243e02c78a9fecafe60"
     },
     "li-update": {
       "SKILL.md": "0f855b98fe8d9f656d2ed8189ccc2c1879797ce4b0889ca3a96e25a171c5a1f9",
@@ -168,6 +163,11 @@
       "references/legacy-installations.json": "419cf59904cf0da23fb7253b8b46d804fee02e626ede4f5c3e48e4d59d421bbc",
       "references/migration.md": "4bdcf6bdb5da2e355b0b78770c5f46775e88121b0a00858c6737caa8ae620b67",
       "scripts/update.py": "38a70d6df0f98001075cd1d7c0118fa8658b6f45907d3b039448d7eab6ebc76c"
+    },
+    "li-worth-shooting": {
+      "SKILL.md": "9d61a6c99d3ed53cf23f78a535dee90fa4c4adab6e230dea0f85cdea1b19686e",
+      "agents/openai.yaml": "43decb9180b7641ff2e06bb23f39ddf1c62ae0cf2d3f5763d9f6555def324808",
+      "references/criteria-sources.md": "bf730665cbec7eb223dc75b0cee543ee1216397b77883cd5515337922b36d7e3"
     }
   }
 }

@@ -1,156 +1,57 @@
 {
   "schema_version": 1,
-  "repository": "https://gitee.com/LTX12/liskill-members.git",
+  "collection": "liskill-pro",
   "skills": [
     {
-      "name": "li",
-      "display_name": "Li 主入口",
-      "kind": "router",
-      "description": "liskill 主入口：按「一步一技能」的 12 步短视频流程，先问用户走到了哪一步（没素材 / 有素材 / 有选题 / 有稿子），再进入对应技能，并用内容卡把各步结果串成一条完整作品。用户明确调用 li、不知道该用哪个 Li 技能、想被带着从头做完一条作品，或一个任务需要多项 Li 能力配合时使用；已明确匹配单个业务技能时直接使用该技能。",
-      "completion_level": "internal",
-      "completion_reason": "系统路由入口，不直接生成业务文稿。"
+      "name": "li"
     },
     {
-      "name": "li-angle-team",
-      "display_name": "多视角找角度",
-      "kind": "business",
-      "description": "多视角找角度：用 12 个理论视角分别发现一份素材或已有角度还能和哪些不同的人、在什么处境下发生真实关系，分批展示完整的连接地图，由用户自己挑方向。用户有素材但不知道往哪个方向讲、想一次看到多种角度、或想知道「这件事还和谁有关」时使用；不排序、不替用户选主角度，也不写标题和全稿。",
-      "completion_level": "2",
-      "completion_reason": "内置 12 个理论视角、连接标准、团队调度协议、没有子 Agent 时的单 Agent 依次分析方式和连接地图格式。",
-      "completion_upgrade_status": "已满足：内置 12 个理论视角、连接标准、团队调度协议、没有子 Agent 时的单 Agent 依次分析方式和连接地图格式。"
+      "name": "li-account-positioning"
     },
     {
-      "name": "li-account-positioning",
-      "display_name": "账号定位",
-      "kind": "business",
-      "description": "账号定位：按李同学的定位方法，带实体老板从零给抖音账号定位——先看同城对手多不多，再定变现、用户和价值，从区域、细分、人群、形式、身份、跨界里找一个有人要、没人占、自己占得住的空位，最后落成一句话定位、3 个账号议程和验证节点。用户要开新号、不知道账号该拍什么方向、问「我该怎么定位」时使用；已经发了一批内容、想检查账号印象是否跑偏时不使用。",
-      "completion_level": "2",
-      "completion_reason": "内置要不要细定位的判断、变现／用户／价值三问、六类空位与三条件筛选、人设与账号议程、一句话定位检查和验证节点，附李同学原话依据与理论边界。",
-      "completion_upgrade_status": "已满足：内置要不要细定位的判断、变现／用户／价值三问、六类空位与三条件筛选、人设与账号议程、一句话定位检查和验证节点，附李同学原话依据与理论边界。"
+      "name": "li-agenda-setting"
     },
     {
-      "name": "li-agenda-setting",
-      "display_name": "议程设置内容定位",
-      "kind": "business",
-      "description": "分析一组内容会让观众形成什么稳定印象，并给出内容支柱和最小修正建议。用户检查账号长期印象或希望反推内容定位时使用；不用于单条稿件的表达润色。",
-      "completion_level": "2",
-      "completion_reason": "已有材料收集、正反向分析流程及结果模板。",
-      "completion_upgrade_status": "已满足：已有材料收集、正反向分析流程及结果模板。"
+      "name": "li-angle-team"
     },
     {
-      "name": "li-script-form",
-      "display_name": "脚本形式",
-      "kind": "business",
-      "description": "脚本形式：为已经选定的选题判断内容类型，从李同学的短视频结构库里推荐 2–3 个结构，由用户选定后列出这个结构需要的素材和缺口。用户有了选题、不知道该用什么形式或结构来拍，或者问「这个题怎么拍」「用哪个结构」时使用；还没有选题时先回到选题步骤，已经有成稿时不使用。",
-      "completion_level": "2",
-      "completion_reason": "内置四类内容判断、25 个结构的随包结构库与索引、结构推荐和素材缺口清单流程。",
-      "completion_upgrade_status": "已满足：内置四类内容判断、25 个结构的随包结构库与索引、结构推荐和素材缺口清单流程。"
+      "name": "li-conflict-topics"
     },
     {
-      "name": "li-script-opening",
-      "display_name": "开头",
-      "kind": "business",
-      "description": "开头：按已选定结构的开头规则，用用户的真实素材写 3 个不同勾法的视频开头，由用户选定一个。用户已经选好结构、要先写开头，或者问「开头怎么写」「前几秒怎么勾住人」时使用；还没选结构时先回到脚本形式；只想要发布标题或封面文案时不使用。",
-      "completion_level": "2",
-      "completion_reason": "内置随包结构库的开头规则、三种勾法写作流程、素材占位规则和选定确认。",
-      "completion_upgrade_status": "已满足：内置随包结构库的开头规则、三种勾法写作流程、素材占位规则和选定确认。"
+      "name": "li-eight-audits"
     },
     {
-      "name": "li-script-writing",
-      "display_name": "完整脚本",
-      "kind": "business",
-      "description": "完整脚本：按已选定的结构和开头，用用户的真实素材逐段写出完整的短视频口播稿，缺素材的地方写成待补占位而不代编，附拍摄提示和自检。用户已经选好结构和开头、要写全稿，或者说「帮我把稿子写出来」时使用；还没选结构时先回到脚本形式；已经有成稿只需要审核时不使用。",
-      "completion_level": "2",
-      "completion_reason": "内置随包结构库的信息点模板、素材对照与占位规则、全稿写作流程、拍摄提示和自检。",
-      "completion_upgrade_status": "已满足：内置随包结构库的信息点模板、素材对照与占位规则、全稿写作流程、拍摄提示和自检。"
+      "name": "li-material-mining"
     },
     {
-      "name": "li-conflict-topics",
-      "display_name": "冲突性选题",
-      "kind": "business",
-      "description": "判断普通话题是否适合以冲突展开，找出主冲突并形成不同力度的选题。用户觉得话题太平、想找张力或把话题推进成题时使用；不强推没有真实分歧的教程和通知。",
-      "completion_level": "2",
-      "completion_reason": "内置六类判断方法、适配筛选和选题输出流程。",
-      "completion_upgrade_status": "已满足：内置六类判断方法、适配筛选和选题输出流程。"
+      "name": "li-public-issues"
     },
     {
-      "name": "li-eight-audits",
-      "display_name": "八大审核法",
-      "kind": "business",
-      "description": "对已有中文口播稿或短视频脚本按「八步审核流程」逐条诊断：选题=需求+解决方案、开头5秒勾引、陌生化+普遍性、信息清单、明确的朋友和敌人、植入个人营销点、信息效率、筹码，判断能不能发、卡在哪几步、最致命的缺口，并给出可直接使用的改写示范。用户要求审稿、改文案、判断文案能不能发、增强画面感或流量时使用；不用于从零写作、标题起名、发布合规判断或整体流量归因。",
-      "completion_level": "2",
-      "completion_reason": "已具备李老师八步审核流程全文、文案类型与客群确认、信息清单打分与筹码加码方法。",
-      "completion_upgrade_status": "已满足：八步流程完整，含类型差异处理、输出格式与重点改造示范。"
+      "name": "li-publish-pack"
     },
     {
-      "name": "li-material-mining",
-      "display_name": "素材挖掘",
-      "kind": "business",
-      "description": "通过逐轮追问，从用户的工作和日常经历中挖掘真实的短视频素材，并形成可拍的选题。用户不知道拍什么、觉得日常没有内容，或希望通过聊天寻找素材时使用；已有明确素材、只需要改稿时不使用。",
-      "completion_level": "2",
-      "completion_reason": "已有逐轮问答、素材充分性判断和五套随包分发的方法；缺失的两套扩展不计入能力。",
-      "completion_upgrade_status": "已满足：已有逐轮问答、素材充分性判断和五套随包分发的方法；缺失的两套扩展不计入能力。"
+      "name": "li-script-form"
     },
     {
-      "name": "li-public-issues",
-      "display_name": "公共问题升维",
-      "kind": "business",
-      "description": "检验具体事件或个人观察是否具有公共性，用事实和机制假设形成值得讨论的公共问题。用户觉得现象不对劲、想讲清背后机制或让更多人理解其影响时使用；证据不足时不强行扩大结论。",
-      "completion_level": "2",
-      "completion_reason": "已有事实收集、公共性筛选、假设检验、确认与输出流程。",
-      "completion_upgrade_status": "已满足：已有事实收集、公共性筛选、假设检验、确认与输出流程。"
+      "name": "li-script-opening"
     },
     {
-      "name": "li-topic-ladder",
-      "display_name": "话题扩圈阶梯",
-      "kind": "business",
-      "description": "话题扩圈阶梯：用抽象阶梯和框架理论，把一个具体素材、经历、产品或观点逐层推到更大的话题和更宽的受众层级，同时保留让人先注意的具体细节。用户觉得题目太小众、只有同行会看、想让圈外人也关心或想把内容推到更高流量层级时使用；不承诺播放量，证据撑不住的层级不硬推。",
-      "completion_level": "2",
-      "completion_reason": "内置锚点账本、四层抽象阶梯、四功能换框、硬门槛与层级地图模板。",
-      "completion_upgrade_status": "已满足：内置锚点账本、四层抽象阶梯、四功能换框、硬门槛与层级地图模板。"
+      "name": "li-script-writing"
     },
     {
-      "name": "li-worth-shooting",
-      "display_name": "值不值得拍",
-      "kind": "business",
-      "description": "值不值得拍：按李同学「需求决定一切」的判断，结合账号定位，给一个已经选好的选题和角度下结论——拍、换个角度拍、还是不拍，并说清理由和改判条件。先看需求是大、小而精准还是没有，再看进来的人是不是老板要的客户，最后看能不能回到生意和信任。用户有了选题、想知道值不值得花时间拍，或担心拍了只有播放没有客户时使用；不预测播放量，不判断转发性，不负责把题推大。",
-      "completion_level": "2",
-      "completion_reason": "内置需求三档、进来的人四类、信任证据三项、风险门、按本条目的出结论的判定表与改判条件模板。",
-      "completion_upgrade_status": "已满足：内置需求三档、进来的人四类、信任证据三项、风险门、按本条目的出结论的判定表与改判条件模板。"
+      "name": "li-stasis-topoi"
     },
     {
-      "name": "li-stasis-topoi",
-      "display_name": "修辞学选题法",
-      "kind": "business",
-      "description": "从已有事实和不同解释中识别核心争点，再选择因果、定义、对比等切口形成选题。用户想弄清在争什么或选择争议内容角度时使用；事实尚不清楚时先补材料。",
-      "completion_level": "2",
-      "completion_reason": "内置争点与切口方法、混层检查和结果模板。",
-      "completion_upgrade_status": "已满足：内置争点与切口方法、混层检查和结果模板。"
+      "name": "li-story-vlog"
     },
     {
-      "name": "li-story-vlog",
-      "display_name": "故事事件「Vlog」写作",
-      "kind": "business",
-      "description": "故事事件「Vlog」写作：将真实经历或人物关系写成克制、留白的 Vlog 旁白，也可按此文风修改已有稿件。用户要求故事 Vlog、事件旁白或克制叙事时使用；不用于强观点口播、教程或强转化带货。",
-      "completion_level": "2",
-      "completion_reason": "已有一轮素材收集、五种内容策略、随包文风规范及改稿流程。",
-      "completion_upgrade_status": "已满足：已有一轮素材收集、五种内容策略、随包文风规范及改稿流程。"
+      "name": "li-topic-ladder"
     },
     {
-      "name": "li-publish-pack",
-      "display_name": "发布文案标题封面",
-      "kind": "business",
-      "description": "发布文案标题封面：根据用户提供的逐字稿、选题或素材，为抖音、视频号和小红书生成平台适配的发布标题、发布文案与封面文案。用户写好内容要发布、需要跨平台适配、或问标题/文案/封面怎么写时使用；只写口播脚本或纯审稿时不使用。",
-      "completion_level": "2",
-      "completion_reason": "内置跨平台发布标题、文案与封面生成流程。"
+      "name": "li-update"
     },
     {
-      "name": "li-update",
-      "display_name": "更新 liskill",
-      "kind": "system",
-      "description": "检查或更新官方 liskill-members 的安装。用户要求更新、升级或检查 Li 安装状态时使用；仅询问版本或更新方式时先解释，只有明确要求更新才执行写入。",
-      "completion_level": "internal",
-      "completion_reason": "系统维护入口，不直接生成业务文稿。"
+      "name": "li-worth-shooting"
     }
   ]
 }

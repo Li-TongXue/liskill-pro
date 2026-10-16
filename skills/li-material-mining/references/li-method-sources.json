@@ -4,7 +4,7 @@
     "sources": [
       {
         "path": "skills/li-stasis-topoi/SKILL.md",
-        "sha256": "04cdb9a8a2bb1cfd5ebc360033c4cb733e51572851fc67b38665bb26cf70aee1"
+        "sha256": "4198f2086acbacd82388a853630f0750f7042b20dba7376d47738c01c318fbf6"
       },
       {
         "path": "skills/li-stasis-topoi/references/method.md",
@@ -17,7 +17,7 @@
     "sources": [
       {
         "path": "skills/li-conflict-topics/SKILL.md",
-        "sha256": "54d1a2761d778bb3f988b6b1c29fd76f62cfdcbc63d1cd9fdb9210f61b45593b"
+        "sha256": "75aff99531789dd4cb61172f2e384f424e54c7764612fdbeb8a458b8b76fe0b9"
       }
     ]
   },
@@ -26,7 +26,7 @@
     "sources": [
       {
         "path": "skills/li-public-issues/SKILL.md",
-        "sha256": "a15cebedcf5ec3edc39afed1a16644cfde607de76b24cc9c8b5439251ba14ace"
+        "sha256": "3e409c79860167437e74038573e9ff0a87cc404b4f9fd62f4013a1bee65a094a"
       },
       {
         "path": "skills/li-public-issues/references/case-study.md",
@@ -39,7 +39,7 @@
     "sources": [
       {
         "path": "skills/li-social-currency/SKILL.md",
-        "sha256": "da74540a0e512202b1eea6f22bbc8ec3755258276d9e989a774b207a9d6ede2b"
+        "sha256": "9b5e5ae92d89b4b19e89eebe50c5f4c859499ce31658318dcd17b33f74681284"
       }
     ]
   }

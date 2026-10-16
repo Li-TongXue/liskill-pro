@@ -147,7 +147,7 @@ metadata:
 
 先使用宿主已发现的技能路径；没有时在当前 Skill 的同级目录按机器名称查找。只读取当前步骤需要的技能。找不到目标时说明安装缺项，不假装已经调用，也不按名字猜写其方法。
 
-读取目标 frontmatter 的 `metadata.completion_level`。Level 1（目前是 `li-city-impressions`）必须先告知结构型边界；Level 2 查看 `completion_upgrade_status` 和输入条件；以「已满足」开头即视为升级条件已满足（等同 ready）。保留用户已给出的事实、选中的方向和待确认信息，不要求重复提交。
+读取目标 frontmatter 的 `metadata.completion_level`。Level 1 必须先告知结构型边界；Level 2 查看 `completion_upgrade_status` 和输入条件；以「已满足」开头即视为升级条件已满足（等同 ready）。保留用户已给出的事实、选中的方向和待确认信息，不要求重复提交。
 
 ## 系统工具入口
 
