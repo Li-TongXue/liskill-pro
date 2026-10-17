@@ -11,7 +11,8 @@ python3 -B tools/build_structures.py
 它会：
 
 - 把全部结构复制到三个写稿技能（li-script-form、li-script-opening、li-script-writing）的 references/structures 目录；
-- 从每个结构的「基本信息」生成 `structure-index.md`，放进三个写稿技能的 `references/`。
+- 从每个结构的「基本信息」生成 `structure-index.md`，放进三个写稿技能的 `references/`；
+- 把仓库 methods 目录里的方法资料（开头方法、四类脚本、精修清单、理论依据）复制到需要它们的技能。
 
 `python3 -B tools/check_skills.py` 会检查副本和索引是否过期。
 
@@ -19,7 +20,7 @@ python3 -B tools/build_structures.py
 
 结构来自李同学历届线下课拆解的学员与参考视频结构（原 `cq-*` 技能的 `structure.md` 与 `SKILL.md`）。每个文件在「基本信息」里写明来源目录。只收录原材料里有的内容；为统一格式补写的说明不得新增事实、数据或案例。
 
-城市印象、故事 Vlog 两种形式已有独立技能 `li-city-impressions`、`li-story-vlog`，不在本库重复收录，索引里直接指向它们。
+故事 Vlog 形式已有独立技能 `li-story-vlog`，不在本库重复收录，索引里直接指向它。
 
 ## 文件格式（必须遵守）
 
@@ -28,7 +29,7 @@ python3 -B tools/build_structures.py
 
 ## 基本信息
 
-- 类型：知识型／经历型／判断型／展示型（只写一个主类型）
+- 脚本类型：干货／过程／故事／情绪（只写一个主类型；有辅助类型时写成「过程（辅：故事）」，依据见 methods/四类脚本.md）
 - 难度：<原材料标注的难度，如 2 级；没有标注写「未标注」>
 - 一句话适合：<什么素材、什么账号适合用它，一句话>
 - 必需素材：<最少需要的素材，用顿号分隔，一行写完>
